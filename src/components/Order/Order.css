@@ -1,0 +1,23 @@
+.order {
+    background-color: azure;
+}
+
+ol {
+    margin: 0;
+}
+
+li::marker {
+    font-size: larger;
+    color: red;
+    font-weight: bold;
+}
+
+.order-list {
+  max-height: 25rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.hr {
+    border: 2px solid brown;
+}

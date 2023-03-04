@@ -1,0 +1,71 @@
+.little-bold {
+  font-weight: 500;
+}
+
+.small-text {
+  display: inline-block;
+  margin-bottom: 3%;
+  color: grey;
+}
+
+.order-id {
+  font-weight: bold;
+}
+
+.order-date {
+  font-weight: 500;
+  color: brown;
+}
+
+.individual-order-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 1% 4% 1% 1%;
+}
+
+.name-desc {
+  text-align: left;
+}
+
+.price-qty {
+  text-align: right;
+}
+
+.order-total-amount {
+  display: flex;
+  justify-content: space-between;
+  margin: 3% 4% 3% 1%;
+}
+
+.user-details {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-name {
+  order: 1;
+  width: 30%;
+}
+
+.delivery-detail {
+  order: 2;
+  width: 40%;
+}
+
+.detail-heading {
+  margin-bottom: 3%;
+  margin-top: 3%;
+}
+
+.name-desc__name {
+  text-decoration: underline;
+}
+
+.price-qty__price {
+  color: brown;
+}
+
+.order-total-amount__net {
+  font-weight: bolder;
+  color: brown;
+}

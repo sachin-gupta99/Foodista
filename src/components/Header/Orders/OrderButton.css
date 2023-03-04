@@ -1,0 +1,23 @@
+.orders {
+  width: 10rem;
+  padding: 1%;
+  background-color: rgb(44, 8, 8);
+  color: white;
+  margin: 3%;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.orders:hover {
+  transform: scale(1.05);
+  cursor: pointer;
+  box-shadow: 0 0 8px 1px white;
+}
+
+.order-text {
+  padding: 4%;
+  margin: 3%;
+  font-weight: bold;
+}

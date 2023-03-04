@@ -1,0 +1,36 @@
+.header {
+    display: flex;
+    margin: 0;
+    height: 5rem;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    background-color: brown;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 80%;
+    z-index: 10;
+    color: white;
+    font-size: larger;
+}
+
+.meal-image {
+    z-index: 100;
+    overflow: hidden;
+    width: 100%;
+    height: 25rem;
+}
+
+.meal-image img {
+    transform: rotateZ(-5deg) translateX(-2rem) translateY(-4rem);
+    width: 110%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.cart-orders {
+    display: flex;
+    align-items: center;
+}
+

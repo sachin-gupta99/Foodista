@@ -1,0 +1,12 @@
+.summary {
+    text-align: center;
+    position: relative;
+    top: -170px;
+    margin: auto auto -150px auto;
+    width: 40%;
+    height: auto;
+    background-color: rgb(66, 66, 66);
+    color: white;
+    font-weight: bold;
+    transition: 0.5s;
+}
