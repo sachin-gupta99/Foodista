@@ -1,0 +1,25 @@
+.cart-button {
+    width: 13rem;
+    background-color: rgb(44, 8, 8);
+    color: white;
+    transition: 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.bump {
+    transform: scale(1.1);
+}
+
+.cart-button:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+    box-shadow: 0 0 8px 1px white
+}
+
+.cart-text {
+    padding: 4%;
+    margin: 3%;
+    font-weight: bold;
+}

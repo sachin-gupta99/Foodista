@@ -1,0 +1,35 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.loading {
+    text-align: center;
+    font-weight: bold;
+}
+
+.error-text {
+    color: red;
+    text-align: center;
+    font-weight: bold;
+}
+
+.food-list {
+    width: 60%;
+    margin: auto;
+    background-color: azure;
+    animation: foods-appear 0.5s ease-out forwards;
+}
+
+@keyframes foods-appear {
+    from {
+        opacity: 0;
+        transform: translateX(3rem);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
